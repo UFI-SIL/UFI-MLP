@@ -1,8 +1,6 @@
-# Contributing to oneVPL
+# Contributing to UFI MLP
 
-The following is a set of guidelines for contributing to oneVPL and its packages,
-which are hosted in the [Intel® oneAPI Video Processing Library
-Group](https://gitlab.devtools.intel.com/video-processing-lib) on GitLab. Feel
+The following is a set of guidelines for contributing to the UFI MLP. Feel
 free to propose changes to this document in a merge request.
 
 ## Table of Contents
@@ -23,8 +21,8 @@ free to propose changes to this document in a merge request.
 
 # Important Resources
 
-*   [Feature tracking](https://rally1.rallydev.com/#/304579368208d/)
-*   [Defect tracking](https://rally1.rallydev.com/#/304579368208d/defects)
+*   Feature tracking: TBD
+*   Defect tracking: TBD
 
 # Contributing Code
 
@@ -36,19 +34,12 @@ build or add undue burden on other developers. To do this there are
 certain actions developers should do before submitting code for review.
 
 * full project builds on at least one platform
-```bash
-# mkdir build
-# cd build
-# cmake ..
-# cmake --build .
-```
+
 * project build does not have any known fails (i.e. it is not sufficient
 to have a platform where the builds pass if the developer knows of a
 system where build fails)
 * Unit tests pass
-```bash
-# vpl-utest
-```
+
 * An effort has been made to ensure content checked in align to the style
 guides in this document.
 
